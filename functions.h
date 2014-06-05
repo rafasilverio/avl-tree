@@ -1,3 +1,7 @@
+/*===============================================================================*/
+/* Autores: Rafael Silvério da Silva - https://github.com/rafasilverio/avl-tree  */
+/*===============================================================================*/
+
 avl_node* menu(avl_node* full_tree);
 avl_node* select_option(int option, avl_node* full_tree);
 avl_node* option_insert(avl_node* full_tree);

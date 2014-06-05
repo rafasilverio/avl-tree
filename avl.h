@@ -1,11 +1,15 @@
+/*===============================================================================*/
+/* Autores: Rafael Silvério da Silva - https://github.com/rafasilverio/avl-tree  */
+/*===============================================================================*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
 
 typedef struct student {
-	int  matriculation;
-	char name[20];
-	int  notes[3];
+  int  matriculation;
+  char name[20];
+  int  notes[3];
 } Student;
 
 typedef struct avl_node {
